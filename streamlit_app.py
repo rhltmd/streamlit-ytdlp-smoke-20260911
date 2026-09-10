@@ -85,7 +85,7 @@ def run_smoke():
             common
             + [
                 "-f",
-                "worst[ext=mp4]/worst",
+                "worst",
                 "-o",
                 str(target / "%(id)s.%(ext)s"),
                 url,
