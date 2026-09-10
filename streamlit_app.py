@@ -84,8 +84,8 @@ def run_smoke():
         download = run_command(
             common
             + [
-                "-f",
-                "worst",
+                "-S",
+                "res:144",
                 "-o",
                 str(target / "%(id)s.%(ext)s"),
                 url,
